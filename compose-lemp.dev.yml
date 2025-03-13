@@ -22,6 +22,7 @@ services:
       #php.ini
     networks:
       redelamplemp:
+    command: tail -f /dev/null
   basededatos:
     image: mysql:latest
     env_file:
